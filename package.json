@@ -1,0 +1,44 @@
+{
+  "name": "travel-community",
+  "version": "1.0.0",
+  "scripts": {
+    "init": "cd ./scripts && node fixDates.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "joi": "^17.9.2",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.0.5",
+    "next": "^12.3.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-config-next": "^12.3.4"
+  },
+  "description": "Advanced Web Technologies Group Project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsigs/travel-community.git"
+  },
+  "keywords": [
+    "travel",
+    "community"
+  ],
+  "author": "Ishtiaq Ahmed, Israel Gonzalez, and Tseng Meng Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fsigs/travel-community/issues"
+  },
+  "homepage": "https://github.com/fsigs/travel-community#readme"
+}
